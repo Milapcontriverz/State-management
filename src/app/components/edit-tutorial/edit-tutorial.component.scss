@@ -1,0 +1,33 @@
+.login {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login section {
+    width: 100%;
+    padding: 20px;
+}
+
+ion-item ion-label {
+    --color: darkgrey !important;
+}
+
+ion-item {
+    margin: 15px 0;
+    --min-height: gainsboro;
+    --padding-start: 0;
+    --highlight-background: var(--ion-color-primary);
+}
+
+ion-item.item-has-focus ion-label {
+    color: var(--ion-color-tertiary) !important;
+}
+
+ion-button {
+    width: 100%;
+    margin: 10px 0 0;
+    --box-shadow: 0;
+    --background: var(--ion-color-secondary);
+    color: var(--ion-color-secondary-contrast);
+}
